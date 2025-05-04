@@ -1,0 +1,27 @@
+{
+  "name": "mcp-starter",
+  "version": "1.0.0",
+  "description": "A starter template for working with MCP servers and clients",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "anthropic",
+    "auth",
+    "starter",
+    "template"
+  ],
+  "author": "a17o",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "express": "^5.1.0",
+    "zod": "^3.24.3",
+    "@types/express": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3"
+  }
+}
